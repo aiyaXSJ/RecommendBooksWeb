@@ -1,0 +1,60 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.el-breadcrumb {
+	margin: 15px;
+	font-size: 15px;
+}
+
+.el-card {
+	/* 阴影 全局引用权重比较低 可以使用!important*/
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-carousel__item h3 {
+	color: #475669;
+	font-size: 14px;
+	opacity: 0.75;
+	line-height: 200px;
+	margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+	background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+	background-color: #d3dce6;
+}
+
+.el-dropdown-link {
+	cursor: pointer;
+	color: #409EFF;
+}
+
+.el-icon-arrow-down {
+	font-size: 12px;
+}
+
+.bg-purple-dark {
+	background: #99a9bf;
+}
+
+.bg-purple {
+	background: #d3dce6;
+}
+
+.grid-content {
+	border-radius: 4px;
+	min-height: 36px;
+}
+
+.row-bg {
+	padding: 10px 0;
+}
